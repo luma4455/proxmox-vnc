@@ -6,10 +6,12 @@ Currently no VNC password can be set because this has to be done in the console 
 
 The port must be over 5900 due to proxmox limitations.
 
-Oneliner Installer:
+Single-line installer:
+
 curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/installer.sh | bash
 
-Oneline Deinstaller:
+Single-line deinstaller:
+
 curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | bash
 
 ./enablevnc.sh VMID PORT      -- Enable VNC for VM
