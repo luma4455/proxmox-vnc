@@ -6,6 +6,8 @@ Currently no VNC password can be set because this has to be done in the console 
 
 The port must be over 5900 due to proxmox limitations.
 
+Notice that when activating / deactivating / changing layout the VM is restarted
+
 Single-line installer:
 
 curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/installer.sh | bash
