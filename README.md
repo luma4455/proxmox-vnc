@@ -15,6 +15,12 @@ Single-line deinstaller:
 curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | bash
 
 ./enablevnc.sh VMID PORT      -- Enable VNC for VM
+
+
 ./disablevnc.sh VMID          -- Disable VNC for VM
+
+
 ./checkvnc.sh VMID            -- Check if VNC is active for the VM
+
+
 ./setvnclayout.sh VMID KEYBOARD_LAYOUT     -- Sets the keyboard layout for the VNC session (default: en)
