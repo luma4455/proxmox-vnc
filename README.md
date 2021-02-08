@@ -10,11 +10,11 @@ Currently no VNC password can be set because this has to be done in the console 
 
 # Single-line installer:
 
-curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/installer.sh | bash
+curl https://cdn.cardina.de/lumaxit/.LT-Script_Repo/Proxmox/vnc/installer.sh | bash
 
 # Single-line deinstaller:
 
-curl https://download.lumaxit.de/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | bash
+curl https://cdn.cardina.de/lumaxit/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | bash
 
 # Commands:
 
