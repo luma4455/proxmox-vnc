@@ -21,7 +21,7 @@ curl https://cdn.cardina.de/lumaxit/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | b
 enablevnc VMID PORT      -- Enable VNC for VM
 
 
-disablevnc VMID          -- Disable VNC for VM
+disablevnc VMID PORT         -- Disable VNC for VM
 
 
 checkvnc VMID            -- Check if VNC is active for the VM
