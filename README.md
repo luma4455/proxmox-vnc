@@ -8,14 +8,6 @@ Currently no VNC password can be set because this has to be done in the console 
 
  Notice that when activating / deactivating / changing layout the VM is restarted
 
-# Single-line installer:
-
-curl https://cdn.cardina.de/lumaxit/.LT-Script_Repo/Proxmox/vnc/installer.sh | bash
-
-# Single-line deinstaller:
-
-curl https://cdn.cardina.de/lumaxit/.LT-Script_Repo/Proxmox/vnc/uninstall.sh | bash
-
 # Commands:
 
 enablevnc VMID PORT      -- Enable VNC for VM
